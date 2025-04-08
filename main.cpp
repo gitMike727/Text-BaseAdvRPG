@@ -2,9 +2,14 @@
 
 using namespace std;
 
+void gameStory() {
+    system("clear");
+    cout << "\n__________________________\n";
+    cout << "| Arthur : A Warrior |";
+    cout << "\n__________________________\n";
+}
+
 int main()
 {
-    std::cout << "Hello World!\n";
-
-    return 0;
+gameStory();
 }
