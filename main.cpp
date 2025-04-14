@@ -2,20 +2,6 @@
 
 using namespace std;
 
-void gameStory() {
-    system("CLS");
-    cout << "\n__________________________\n";
-    cout << "| Arthur : A Warrior |";
-    cout << "\n__________________________\n";
-    cout << "\n Once upon a time, there was a Warrior who had everything. Money, Power, Fame. The King, Gerald, ";
-    cout << "had a beautiful princess named Diana.\n";
-    cout << "\n__________________________\n";
-    cout << "\n On a dark & cloudy day, the princess was kidnapped by a group of bandits!\n";
-    cout << "\n Arthur was about to marry the princess to one day become king.\n";
-    cout << "\n King Gerald ordered Arthur The Warrior to locate and save his daughter!\n";
-
-}
-
 class Player {
     public:
     
@@ -32,5 +18,18 @@ class Player {
 
 int main()
 {
-gameStory();
+    std::cout << "Welcome to the Dragon Realm!\n";
+
+    std::string playerName;
+
+    std::cout << "Please enter player name: ";
+    std::cin >> playerName;
+    std::cout << "\n";
+
+    std::cout << "Welcome, " << playerName << ", to the Dragon Realm!\n";
+
+    int choice;
+
+    
+
 }
