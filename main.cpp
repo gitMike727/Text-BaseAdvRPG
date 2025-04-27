@@ -29,6 +29,7 @@ int main()
     std::cout << "Welcome, " << playerName << ", to the Dragon Realm!\n";
     std::cout << "-----------------------------------------\n";
    
+    //decision variables
     int choice;
     int nestedChoice;
 
@@ -63,6 +64,11 @@ int main()
                 std::cout << "1. Stay quiet and listen.\n";
                 std::cout << "2. Sing along with the melody.\n";
                 std::cout << "Please enter your choice: \n";
+
+                std:cout << nestedChoice;
+                if (nestedChoice == 1) {
+                    std:cout << "You chose to stay quiet and listen.\n";
+                }
                 break;
             case 3:
                 std::cout << "You chose Green Forest.\n";
